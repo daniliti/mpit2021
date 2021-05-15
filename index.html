@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesteet" href="css/adapter.css" type="text/css">
+    <script src="js/script.js">
+    </script>
+    <link rel="stylesheet" href="/js/script1.js">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <img class="logo__1" src="img/logo.png" alt="">
+
+
+                    <a class="nav__link" href="index.html"><b>Главная</b></a>
+                    <a class="nav__link" href="#part1"><b>О нас</b></a>
+                    <a class="nav__link" href="index3.html"><b>ваканции</b></a>
+                    <a class="nav__link" href="index4.html"><b>заказы</b></a>
+                    <a class="nav__link" href="#"><b>IT центры</b></a>
+                    <a class="nav__link" href="#part2x"><b>событии</b></a>
+
+
+                </nav>
+
+                <div class="header__left">
+                    <a class="btn" href="#"><b>вход</b></a>
+                    <a class="btn" href="#"><b>региcтрация</b></a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+
+        </div>
+    </div>
+
+
+
+    <div class="sob">
+        <div class="container">
+
+            <h2 class="sob__text" id="part2">событии</h2>
+
+            <div class="sob__inner">
+
+                <div class="cal">
+                    <img class="cal__img" src="img/cal.png" alt="">
+                    <h2 class="taimer">До начало событии осталось:</h2>
+                    <div class="countdown">
+                        <div class="time-section">
+                            <span class="count" id="days"></span>
+                            <span class="units"> Дней</span>
+                        </div>
+                        <div class="time-section">
+                            <span class="count" id="hours"></span>
+                            <span class="units"> Часов</span>
+                        </div>
+                        <div class="time-section">
+                            <span class="count" id="minutes"></span>
+                            <span class="units"> Минут</span>
+                        </div>
+                        <div class="time-section">
+                            <span class="count" id="seconds"></span>
+                            <span class="units"> Секунд</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="cal__text">
+                    тут будет написано о предсоящей событии
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h2 class="about" id="part1">О нас</h2>
+    <div class="all">
+        <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+            <input checked type="radio" name="slider" id="switch1">
+            <input type="radio" name="slider" id="switch2">
+            <input type="radio" name="slider" id="switch3">
+
+            <div id="slides">
+                <div id="overflow">
+                    <div class="image">
+                        <article><img src="img/galery1.jpg"></article>
+                        <article><img src="img/galery2.jpg"></article>
+                        <article><img src="img/galery3.jpg"></article>
+
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+
+            </div>
+        </article>
+    </div>
+
+    <h2 class="com__text">комментарии</h2>
+    <div class="container">
+        <div id="mc-container"></div>
+        <script type="text/javascript">
+            cackle_widget = window.cackle_widget || [];
+            cackle_widget.push({
+                widget: 'Comment',
+                id: 77336
+            });
+            (function() {
+                var mc = document.createElement('script');
+                mc.type = 'text/javascript';
+                mc.async = true;
+                mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(mc, s.nextSibling);
+            })();
+        </script>
+        <a id="mc-link" href="https://cackle.me">Комментарии для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__intro">наши контакты</h2>
+            <div class="tex__box">
+                <div class="footer__icon">
+                    <a class="foot_ico" href=""><img class="ico" src="img/1.ico" alt=""></a>
+                    <a class="foot_ico" href=""><img class="ico" src="img/2.ico" alt=""></a>
+                    <a class="foot_ico" href=""><img class="ico" src="img/3.ico" alt=""></a>
+                    <a class="foot_ico" href=""><img class="ico" src="img/4.ico" alt=""></a>
+                </div>
+                <div class="footer__text">
+                    <p class="txt">+7 (999)-99-99-999</p>
+                    <p class="txt">nemoyapochta@mail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

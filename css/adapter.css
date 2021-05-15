@@ -1,0 +1,67 @@
+/* Windows Phone */
+
+@media screen and (max-width: 1200px) {
+    .sob__text {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        margin: 100px 0;
+        text-align: center;
+    }
+    .cal__text {
+        width: 500px;
+        height: 250px;
+        background-color: #F6AB3B;
+        border-radius: 35px;
+        text-align: center;
+    }
+}
+
+
+/* Medium Deviser, Desktops */
+
+@media screen and (max-width: 992px) {
+    nav {
+        text-transform: uppercase;
+        font-size: 8px;
+        margin-bottom: 15px;
+        font-style: bold;
+    }
+    .footer {
+        width: 100%;
+        padding: 20px;
+        background-color: #262626;
+        margin-top: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+    .footer__intro {
+        color: black;
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+/* Snall Deviser, Desktops */
+
+@media screen and (max-width: 768px) {
+    /* */
+}
+
+
+/* Extra Small Deviser, Desktops */
+
+@media screen and (max-width: 480px) {
+    /* */
+}
+
+
+/* Costom iPhone, Desktops */
+
+@media screen and (max-width: 320px) {
+    /* */
+}
